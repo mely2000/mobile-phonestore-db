@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <title>Assignment05</title>
+    <head>
+    </head>
+    <body>
+        <hl>Assignment05</hl>
+
+        <div id = "customerForm">
+            <form method = "POST" name = "test" action = "/addCustomer">
+                <div class="form-group row">
+                <label for="title" class="col-4 col-form-label">Title</label> 
+                <div class="col-8">
+                    <input id="title" name="title" type="text" class="form-control">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="firstName" class="col-4 col-form-label">First Name(s)*</label> 
+                <div class="col-8">
+                    <input id="firstName" name="firstName" type="text" class="form-control" required="required">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="surname" class="col-4 col-form-label">Surname*</label> 
+                <div class="col-8">
+                    <input id="surname" name="surname" type="text" class="form-control" required="required">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="mobile" class="col-4 col-form-label">Mobile Phone Number*</label> 
+                <div class="col-8">
+                    <input id="mobile" name="mobile" type="text" class="form-control" required="required">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="email" class="col-4 col-form-label">Email Address*</label> 
+                <div class="col-8">
+                    <input id="email" name="email" type="text" class="form-control" required="required">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="homeAddressLine1" class="col-4 col-form-label">Home Address Line 1*</label> 
+                <div class="col-8">
+                    <input id="homeAddressLine1" name="homeAddressLine1" type="text" required="required" class="form-control">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="homeAddressLine2" class="col-4 col-form-label">Home Address Line 2</label> 
+                <div class="col-8">
+                    <input id="homeAddressLine2" name="homeAddressLine2" type="text" class="form-control">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="homeCounty/City" class="col-4 col-form-label">Home County/City*</label> 
+                <div class="col-8">
+                    <input id="homeCounty/City" name="homeCountyCity" type="text" class="form-control" required="required">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="homeEircode" class="col-4 col-form-label">Home Eircode</label> 
+                <div class="col-8">
+                    <input id="homeEircode" name="homeEircode" type="text" class="form-control">
+                </div>
+                </div>
+                <div class="form-group row">
+                <div class="col-8">
+                    <div class="custom-control custom-checkbox custom-control-inline">
+                    <input name="checkbox" id="checkbox_0" type="checkbox" class="custom-control-input" value="isHomeShipping"> 
+                    <label for="checkbox_0" class="custom-control-label">Is Home Address also your Shipping Address?</label>
+                    </div>
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="shippingAddressLine1" class="col-4 col-form-label">Shipping Address Line 1*</label> 
+                <div class="col-8">
+                    <input id="shippingAddressLine1" name="shippingAddressLine1" type="text" required="required" class="form-control">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="shippingAddressLine2" class="col-4 col-form-label">Shipping Address Line 2</label> 
+                <div class="col-8">
+                    <input id="shippingAddressLine2" name="shippingAddressLine2" type="text" class="form-control">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="shippingCounty/City" class="col-4 col-form-label">Shipping County/City*</label> 
+                <div class="col-8">
+                    <input id="shippingCounty/City" name="shippingCountyCity" type="text" required="required" class="form-control">
+                </div>
+                </div>
+                <div class="form-group row">
+                <label for="shippingEircode" class="col-4 col-form-label">Shipping Eircode</label> 
+                <div class="col-8">
+                    <input id="shippingEircode" name="shippingEircode" type="text" class="form-control">
+                </div>
+                </div>
+                <div class="form-group row">
+                <div class="offset-4 col-8">
+                    <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                </div>
+            </form>
+        </div>
+
+        <script>
+            
+        </script>
+        <style>
+            body {
+                background: linear-gradient(rgb(14, 129, 245), rrgb(66, 42, 90));
+                height: 100vh;
+                width: 100vh;
+            }
+        </style>
+    </body>
+</html>
